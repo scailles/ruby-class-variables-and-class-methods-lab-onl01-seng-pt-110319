@@ -30,14 +30,8 @@ class Song
   def self.genre_count
     gc={}
     @@genres.each do |genre, n|
-    if gc[genre]
-      gc[genre] +=1
-    else 
-      gc[genre] = 1 
-    end
-  end
-  puts gc
-end
+    if gc[genre]=nil
+    
 
 
 
