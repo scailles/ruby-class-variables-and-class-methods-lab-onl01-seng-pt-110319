@@ -20,13 +20,7 @@ def self.count
 end
 
 def self.artists
-  artists=[]
-  @@artists.each do |name|
-    if !(artists.include(name))
-    artists << name
-  end
-return artists
-end
+  @@artists.uniq
 end
 
 end
