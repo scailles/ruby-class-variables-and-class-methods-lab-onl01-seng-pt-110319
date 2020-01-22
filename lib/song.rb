@@ -19,6 +19,8 @@ def self.count
   return @@count
 end
 
-
+def self.artists
+  artists=[]
+  
 
 end
