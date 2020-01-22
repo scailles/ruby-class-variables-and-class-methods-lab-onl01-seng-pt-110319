@@ -21,6 +21,7 @@ end
 
 def self.artists
   artists=[]
-  @@artists.each do 
+  @@artists.each do |name|
+    
 
 end
