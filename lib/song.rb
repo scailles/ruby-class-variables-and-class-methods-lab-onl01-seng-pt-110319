@@ -31,8 +31,9 @@ class Song
     gc={}
     @@genres.each do |genre, n=0|
     if gc[genre]=nil
-    gc[genre]
-
+    gc[genre] << n+=1 
+  end
+end
 
 
 end
