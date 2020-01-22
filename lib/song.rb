@@ -25,7 +25,6 @@ def self.artists
     if !(artists.include(#{name}))
     artists << name
   end
-end
 return artists
 end
 
