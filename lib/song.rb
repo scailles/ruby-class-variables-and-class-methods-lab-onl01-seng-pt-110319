@@ -35,7 +35,8 @@ class Song
   else
     gc[genre]= 1
   end
-
+end
+end
 end
 
 
