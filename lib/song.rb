@@ -34,6 +34,7 @@ class Song
     gc[genre] << n+=1 
   end
 end
+end
 
 
 end
