@@ -33,7 +33,7 @@ class Song
     if gc[genre]!=nil
     gc[genre] << n+=1 
   else
-    
+    gc[genre]
   end
 end
 end
