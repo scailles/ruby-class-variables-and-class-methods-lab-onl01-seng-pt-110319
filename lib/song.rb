@@ -36,7 +36,7 @@ class Song
       gc[genre] = 1 
     end
   end
-  genre_count
+  puts genre_count
 end
 
 
