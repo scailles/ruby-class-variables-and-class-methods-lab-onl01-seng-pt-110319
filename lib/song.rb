@@ -29,7 +29,7 @@ class Song
   
   def self.genre_count
     gc={}
-    if gc()
+    if gc[genre]= nil
     
 
 
