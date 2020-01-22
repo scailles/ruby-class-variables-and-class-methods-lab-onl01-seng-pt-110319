@@ -22,6 +22,11 @@ end
 def self.artists
   artists=[]
   @@artists.each do |name|
-    
+    if !(artists.include(#{name}))
+    artists << name
+  end
+end
+return artists
+end
 
 end
