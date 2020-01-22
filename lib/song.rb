@@ -29,7 +29,7 @@ class Song
   
   def self.genre_count
     gc={}
-    @@genres.each do |
+    @@genres.each do |genre|
     if gc[genre]= nil
     
 
