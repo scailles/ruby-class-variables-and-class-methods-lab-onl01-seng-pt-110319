@@ -32,7 +32,9 @@ class Song
     @@genres.each do |genre|
     if gc[genre]
       gc[genre] +=1
-    else gc[genre]    
+    else 
+      gc[genre] = 1 
+      
 
 
 
