@@ -27,5 +27,6 @@ def self.artists
   end
 return artists
 end
+end
 
 end
